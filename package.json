@@ -1,0 +1,13 @@
+{
+  "name": "cw2_devops_app",
+  "version": "1.0.0",
+  "description": "CW2 DevOps Practical",
+  "author": "Madihah Ahmad <mahmad209@caledonian.ac.uk>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
