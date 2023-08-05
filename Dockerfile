@@ -1,10 +1,10 @@
 #defining the image i want to build from - using version 19 of LTC (long term support)
 FROM node:19
 
-#installs app dependencies
 #copies package.json and package-lock.json files
 COPY package*.json ./
 
+#using npm binary to install app dependencies 
 RUN npm install
 
 #copies server.js code
