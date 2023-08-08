@@ -29,5 +29,5 @@ node {
     }
 
         sshagent(['my-ssh-key']) {
-    sh 'ssh ubuntu@3.92.68.99 kubectl set image deployments/devops devops=madihah99/devops:$BUILD_NUMBER'
+    sh 'ssh ubuntu@184.73.58.95 kubectl set image deployments/devops devops=madihah99/devops:$BUILD_NUMBER'
     }
